@@ -1,24 +1,7 @@
-# README
+# Job Portal API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Ruby on Rails backend API for managing users and job applications with role-based access control.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Admins can access all users and their job applications.
+- Candidates can only view their own data.
+- Built using Devise, Pundit, and Jbuilder.
